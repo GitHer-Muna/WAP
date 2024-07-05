@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import "variables";
+
+/* make the customizations */
+$theme-colors: (
+    "primary": $blue,
+    "dark":$darkBlue,
+    "danger": $red,
+    "warning":$yellow,
+    "success":$green,
+    "secondary":$darkPink,
+    "black":$black,
+    "white":$white,
+);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.s-bold {
+    font-weight: 600 !important;
+}
+
+.medium {
+    font-weight: 500 !important;
+}
+
+.regular {
+    font-weight: 400 !important;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+
+button {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+
+@import 'navbar';
+@import 'global';
+
+.h-max {
+    height: 100vh;
+}
+
+
+
+/* import bootstrap to set changes */
+// @import "~bootstrap/scss/bootstrap";
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'

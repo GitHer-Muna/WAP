@@ -1,0 +1,16 @@
+.active {
+    color: #E03C33 !important;
+    // color: tomato !important;
+    // background: #00A4E2;
+    // text-decoration: underline;
+}
+
+nav.navbar {
+    background: rgba(0, 164, 226, 0.31);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(0, 164, 226, 0.18);
+    position: absolute;
+    width: 100%;
+}

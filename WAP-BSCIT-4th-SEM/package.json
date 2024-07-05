@@ -1,0 +1,15 @@
+{
+  "name": "learning-platform",
+  "version": "1.0.0",
+  "description": "this is the college assignment based on the online learning platform website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lokesh bhatta, Rochak Rupakheti, Nabraj Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
